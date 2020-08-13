@@ -1,0 +1,1 @@
+print('I\nwill\ncomplete\nthis\ntraining')
