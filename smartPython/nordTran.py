@@ -5,7 +5,7 @@ class ReplaceBinOp(ast.NodeTransformer):
     def visit_BinOp(self, node):
         return ast.BinOp(left=node.left,
                          op=ast.Add(),
-                         right=node.light)
+                         right=node.right)
 
 tree = ast.parse("x = 1/3")
 ast.fix_missing_locations(tree)
