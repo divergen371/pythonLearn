@@ -6,10 +6,12 @@ verify_ssl = true
 [dev-packages]
 black = "*"
 flake8 = "*"
+pylint = "*"
 
 [packages]
 mypy = "*"
 pylint = "*"
+pyprof2calltree = "*"
 
 [requires]
 python_version = "3.8"
